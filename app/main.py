@@ -327,7 +327,7 @@ async def simulate_result(patient_info: PatientInfo):
     예시1을 참조하여 위의 입력 데이터를 기반으로, 위 출력 형식과 유사한 형식의 출력 데이터를 생성해 주세요.
     """
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="ftjob-BGK5FrqtvrsxzQXwCeMOqD3R",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
@@ -636,7 +636,7 @@ async def simulate_patient(patient_info: SimulateResult):
     """
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="ftjob-BGK5FrqtvrsxzQXwCeMOqD3R",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}

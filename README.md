@@ -6,8 +6,8 @@ Follow these steps to set up and run your model server using Docker. Let's get s
 
 Before you begin, make sure you have the following installed:
 
-- 🐳 Docker Desktop (running)
-- 🐙 Git
+-   🐳 Docker Desktop (running)
+-   🐙 Git
 
 ## Steps
 
@@ -89,7 +89,7 @@ Before you begin, make sure you have the following installed:
         "symptoms": "두통, 복통",
         "onset": "지난주",
         "painLevel": 10,
-        "explainType": "쉽고 친절",
+        "explainType": 1,
         "scenario": {
             "prescription1": [
             {
